@@ -86,7 +86,7 @@ service-worker: true
 
 
 # Friends
-friends: [
+GoodWebs: [
     {
         title: " 少年的博客",
         href: "http://jingliang92.github.io/jingliang-blog"
