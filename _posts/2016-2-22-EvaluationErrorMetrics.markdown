@@ -53,7 +53,7 @@ tota;        | Positive Samples(P)| Negative Samples(N)
 ```{r}
 library(ROCR)
 data(ROCR.simple)
-str(ROCR.simple)
+data <- as.data.frame(ROCR.simple)[1:10, ]
 ```
 
 #### 设置阀值概率，这里设置为0.5，即predictions>0.5为1，否则为0。
@@ -181,11 +181,11 @@ K-S图衡量分类模型的表现。更准确的说，K-S是the positive and neg
 
 注意整体的面积是1。因此AUC是曲线面积和整体面积的比。这个例子的AUC是96.4%。下面是一些经验法则：
 
-* ???	.90-1=excellent(A)
-* ???	.80-.90=good(B) 
-* ???	.70-.80=fair(C) 
-* ???	.60-.70=poor(D) 
-* ???	.50-.60=fail(F) 
+* .90-1=excellent(A)
+* .80-.90=good(B) 
+* .70-.80=fair(C) 
+* .60-.70=poor(D) 
+* .50-.60=fail(F) 
 
 在当前模型下，我们处在excellent。但这可能只是过度拟合。因此在这个例子中用交叉集验证是非常重要的。
 

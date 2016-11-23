@@ -12,7 +12,7 @@ baseurl: "/jingliang-blog"         # for example, '/blog' if your blog hosted on
 
 # SNS settings
 RSS: false
-weibo_username:     晶亮66
+weibo_username:     u/2790065325
 zhihu_username:     zheng-jing-liang-92
 github_username:    jingliang92
 #twitter_username: 
