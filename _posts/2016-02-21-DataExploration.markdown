@@ -41,7 +41,7 @@ tags:
 加减法，乘除）分类为：标称（nominal），序数（ordinal），区间（interval），比率（ratio）。
 其中标称和序数又属于分类（或定性）变量，区间和比率属于数值（定量）变量，定量变量
 可以是连续的也可以是离散的。如下表：  
-![]()
+![](https://github.com/jingliang92/jingliang-blog/blob/gh-pages/img/VariableClass.jpg)
   
 ## 单变量分析  
 在这个阶段，我们探索每个变量。进行单变量分析的方法取决于变量的种类是分类的还是连续的

@@ -109,6 +109,7 @@ confusionMatrix(cft, positive = "1")
 这里用R中ROCR中的例子演示[代码参考](http://iccm.cc/classification-model-evaluation-gain-chart-lift-chart/)：
 
 #### 数据提取：
+
 ```{r}
 library(ROCR)
 data(ROCR.simple)
