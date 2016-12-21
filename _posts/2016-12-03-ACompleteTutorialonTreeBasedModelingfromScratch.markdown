@@ -600,3 +600,5 @@ XBGOOST采用并行计算比大多数的梯度提升算法快十倍，并且支�
 利用R进行XGBOOST建模；[Check Tutorial](https://www.analyticsvidhya.com/blog/2016/01/xgboost-algorithm-easy-steps/)
 
 利用Python进行XGBOOST建模；[Check Tutorial](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
+
+[本文翻译自《A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)》](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?spm=5176.100239.blogcont64929.15.v0mo24)
