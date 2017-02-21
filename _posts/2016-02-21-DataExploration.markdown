@@ -9,7 +9,8 @@ tags:
     - 数据分析
 ---
 
-
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
+**[本文翻译自《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) **
 
 
 # 数据探索和预处理的几个步骤:  
@@ -256,4 +257,4 @@ SAS：Chisq –>Proc freq
 
 [注：这里有一篇关于变量转换的R语言方法](http://topepo.github.io/caret/preprocess.html) 
  
-[本文翻译自《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/)  
+ 

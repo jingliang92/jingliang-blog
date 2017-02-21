@@ -9,6 +9,9 @@ tags:
     - 决策树
 ---
 
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
+**[本文翻译自《A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)》](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?spm=5176.100239.blogcont64929.15.v0mo24) **
+
 ## 1 决策树是什么？它是如何工作的？
 决策树是一种监督学习算法(有预先定义的目标变量)，并且经常被用在分类问题上。它既能用于分类变量也能用于连续变量。
 在这个算法中，它将整体或样本基于输入变量中最显著的分类指标分成两个或多个同类子集。
@@ -601,4 +604,3 @@ XBGOOST采用并行计算比大多数的梯度提升算法快十倍，并且支�
 
 利用Python进行XGBOOST建模；[Check Tutorial](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 
-[本文翻译自《A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)》](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?spm=5176.100239.blogcont64929.15.v0mo24)

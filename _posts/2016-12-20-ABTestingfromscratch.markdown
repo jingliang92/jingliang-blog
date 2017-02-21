@@ -9,6 +9,8 @@ tags:
     - A/B测试
 ---
 
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
+**[本文翻译自《A/B Testing, from scratch》](http://www.alfredo.motta.name/ab-testing-from-scratch/)**
 
 ## 介绍
 A/B测试是一项的随机对照实验，并在实验中比较两种产品变量的表现。这些变量通常用变量A和变量B来表示。从商业角度来看我们想知道某个变量的表现是否优于其他变量。
@@ -438,4 +440,3 @@ $$N = (\frac{ z_{1-\alpha} * \sqrt{p_a * (1-p_a)} + z_{1-\beta} * \sqrt{p_b * (1
 
 这看起来似乎与我们先前的模拟一样。但另一方面比用注明的A/B测试工具测量的值低30%。作者不清楚原因。
 
-[本文翻译自《A/B Testing, from scratch》](http://www.alfredo.motta.name/ab-testing-from-scratch/)

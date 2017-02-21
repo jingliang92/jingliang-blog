@@ -9,6 +9,9 @@ tags:
     - 数据分析
 ---
 
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
+**[本文翻译自《7 Important Model Evaluation Error Metrics Everyone should know》](http://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/)**
+
 # 七个重要的模型误差度量
    你的目的不仅仅是构建一个预测模型，而是创建和选择一个对样本以外的数据同样具有高度精度的模型。因此在用模型计算预测值之前，去检测模型准确度是非常重要的一个步骤。
 
@@ -321,4 +324,3 @@ K如果大了，我们会得到低的选择偏差和高方差。
 
 在大多是时候K选为10.
 
-[本文翻译自《7 Important Model Evaluation Error Metrics Everyone should know》](http://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/)
