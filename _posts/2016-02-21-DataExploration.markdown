@@ -151,7 +151,7 @@ SAS：Chisq –>Proc freq
 ![](https://www.analyticsvidhya.com/wp-content/uploads/2015/02/Outlier_21.png)   
 [注:这里有一篇高维数据异常值检测的方法](http://shahramabyari.com/2016/01/19/detecting-outliers-in-high-dimensional-data-sets/)  
 
-##什么造成异常值？  
+## 什么造成异常值？  
 无论什么时候遇到异常值，处理他们最理想的方式是找到这些异常值出现的原因。处理异常值的方法取决于异常值出现的原因。引起异常值的原因能分为两大类：
   
 1. 人工造成的/非自然  
