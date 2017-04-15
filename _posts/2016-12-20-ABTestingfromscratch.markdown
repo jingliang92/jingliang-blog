@@ -11,7 +11,7 @@ tags:
 
 **本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正！**
 
-** 本文翻译自[《A/B Testing, from scratch》](http://www.alfredo.motta.name/ab-testing-from-scratch/) **
+**本文翻译自[《A/B Testing, from scratch》](http://www.alfredo.motta.name/ab-testing-from-scratch/)**
 
 ## 介绍
 A/B测试是一项的随机对照实验，并在实验中比较两种产品变量的表现。这些变量通常用变量A和变量B来表示。从商业角度来看我们想知道某个变量的表现是否优于其他变量。

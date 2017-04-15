@@ -11,7 +11,7 @@ tags:
 
 **本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正！**
 
-** 本文翻译自[《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) **
+**本文翻译自[《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/)**
 
 
 # 数据探索和预处理的几个步骤:  
