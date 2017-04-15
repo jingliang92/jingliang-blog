@@ -11,7 +11,7 @@ tags:
 
 **本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正！**
 
-**本文翻译自[《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) **
+** 本文翻译自[《A Comprehensive guide to Data Exploration》](http://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/) **
 
 
 # 数据探索和预处理的几个步骤:  
@@ -39,7 +39,7 @@ tags:
 这里作者介绍的关于变量种类的定义比较简单，下面是我提取的数据挖掘导论中第二章中关于数据属性的部分内容：根据下文的“变量转换”中的内容，所有类型变量的数据类型都可以转为数值类型，我们根据这些数值变量具有的性质（或操作：相异性[=,!=]，序[>,<],加减法，乘除）分类为：标称（nominal），序数（ordinal），区间（interval），比率（ratio）。
 其中标称和序数又属于分类（或定性）变量，区间和比率属于数值（定量）变量，定量变量
 可以是连续的也可以是离散的。如下表：  
-![](https://thumbnail0.baidupcs.com/thumbnail/f389a2beac4839d67e99316b83467c8e?fid=3674352017-250528-324633322386439&time=1492171200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-WV4k25Jdt%2B1c35Nn3eE1HEQ%2FIbM%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2409029105507031910&dp-callid=0&size=c710_u400&quality=100)
+![](https://68.media.tumblr.com/a18beb12cf345ff9fba332a8b833f2fa/tumblr_oofixeMRgm1w13vv3o1_540.jpg)
   
 ## 单变量分析  
 在这个阶段，我们探索每个变量。进行单变量分析的方法取决于变量的种类是分类的还是连续的

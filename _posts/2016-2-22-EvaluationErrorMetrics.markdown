@@ -76,7 +76,7 @@ Tnr <- performance(pred, 'tnr')
 plot(Tnr)
 
 ```
-![alt text](http://thumbnail0.baidupcs.com/thumbnail/25ca9a75e6a62942164116731f84b9c5?fid=3674352017-250528-290865373198405&time=1492149600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-pE5TsOhE4jK82Fg6FvXPvAzPPH4%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2403164990154132676&dp-callid=0&size=c710_u400&quality=100)
+![alt text](https://68.media.tumblr.com/25ca9a75e6a62942164116731f84b9c5/tumblr_oofiwf29y81w13vv3o1_540.png)
 从以上各图可以看到随着cutoff(门槛值)变化，各指标也发生变化。通常情况下我们只考虑其中的一个指标，例如药物实验中，可能更多的关注Specificity。在一个预测用户流失的模型中，可能更多的关注sensitivity。
 
 #### 或是使用caret包中的confusionMatrix函数计算混淆矩阵
@@ -112,7 +112,7 @@ gain计算公式为True Positive Rate。
 lift <- performance(pred, measure="lift", x.measure="rpp")
 plot(lift, main = "Lift Chart")
 ```
-![alt text](http://thumbnail0.baidupcs.com/thumbnail/d23d5fd250e1529f73ea20c8862c51d1?fid=3674352017-250528-304915344799533&time=1492149600&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-263dgE8%2BlXz341Gw0JXd80G61hs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2403341128899358837&dp-callid=0&size=c710_u400&quality=100)
+![alt text](https://68.media.tumblr.com/d23d5fd250e1529f73ea20c8862c51d1/tumblr_oofiquiLwW1w13vv3o1_540.png)
 如图所示当Positive Predictive Value比例越小，lift提升度越高。也就是门槛值设计越高(将更少的预测Positive归于实际Positive)，这一小部门
 预测Positive准度度越高(和实际Positive特征最接近)。最后一般选择从右向左上升期中最陡峭的点。
 
@@ -120,7 +120,7 @@ plot(lift, main = "Lift Chart")
 gain <- performance(pred, "tpr", "rpp")
 plot(gain, main = "Gain Chart")
 ```
-![alt text](http://thumbnail0.baidupcs.com/thumbnail/3820a9c284143c6ec749db08232b9f40?fid=3674352017-250528-847692704089328&time=1492153200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tfRR%2B%2FZ4IsmhPSlINwOFXZO83bs%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2403367762214563331&dp-callid=0&size=c710_u400&quality=100)
+![alt text](https://68.media.tumblr.com/3820a9c284143c6ec749db08232b9f40/tumblr_oofisyxMUT1w13vv3o1_540.png)
 如图所示当Positive Predictive Value比例越大，gain越高。最后一般选择从左向右上升期中最陡峭的点。
 
 ##### 原文中的表如下，可以据此画出提升图：
@@ -221,9 +221,9 @@ lines(seq(0,1,0.2),seq(0,1,0.2))
 auc <- performance(pred, "auc", fpr.stop=1)@y.values
 auc
 ```
-![alt text](http://thumbnail0.baidupcs.com/thumbnail/75f3ee97d780b47ba61ef5c206bb2809?fid=3674352017-250528-271043318765729&time=1492153200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-XDx6KNXoM87qnVawpw%2Bwf8Zm33s%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2403411848189908056&dp-callid=0&size=c710_u400&quality=100)
+![alt text](https://68.media.tumblr.com/75f3ee97d780b47ba61ef5c206bb2809/tumblr_oofiucdaGF1w13vv3o1_540.png)
 
-![alt text](http://thumbnail0.baidupcs.com/thumbnail/66cb54fc01c781e1cda12245227cbb09?fid=3674352017-250528-449305474351536&time=1492153200&rt=sh&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-tgtYgd%2BngJED36CwVpVOLQKd3tY%3D&expires=8h&chkv=0&chkbd=0&chkpc=&dp-logid=2403429334607688255&dp-callid=0&size=c710_u400&quality=100)
+![alt text](https://68.media.tumblr.com/66cb54fc01c781e1cda12245227cbb09/tumblr_oofivgiBvA1w13vv3o1_540.png)
 从上图中可以看到每一个True Positive Rate，对应一个True Negative Rate(即false positive rate)，两者在不同门槛值下的值组成坐标下(x,y)，并形成ROC曲线图。
 
 ## 5. 基尼系数（Gini Coefficient）
