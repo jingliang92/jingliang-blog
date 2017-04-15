@@ -9,8 +9,9 @@ tags:
     - 决策树
 ---
 
-**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
-** [本文翻译自《A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)》](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?spm=5176.100239.blogcont64929.15.v0mo24)  **
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正！**
+
+** 本文翻译自[《A Complete Tutorial on Tree Based Modeling from Scratch (in R & Python)》](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/?spm=5176.100239.blogcont64929.15.v0mo24)  **
 
 ## 1 决策树是什么？它是如何工作的？
 决策树是一种监督学习算法(有预先定义的目标变量)，并且经常被用在分类问题上。它既能用于分类变量也能用于连续变量。
@@ -71,7 +72,7 @@ tags:
 
 所有的树都是相似，让我们来看看他们主要的区别和相同之处：
 
-1. 当因变量是连续的我们使用回归树，当因变脸是分类变量时我们使用分类树。
+1. 当因变量是连续的我们使用回归树，当因变量是分类变量时我们使用分类树。
 2. 在回归树中，从训练集中的终端结点获取的数据是根据观测值的平均值来分类的。因此，如果一个不可见的观测数据分到某个区域，回归树是用均值做的预测。
 3. 在分类树中，从训练集中的终端结点获取的数据是根据观测值的众数来分类的。因此，如果一个不可见的观测数据分到某个区域，分类树是用众数做的预测。
 4. 所有的树都是把预测空间分成不同和不重叠的区域，为了简单起见，你可以把这些区域想象成不同维度的一个个箱子。 

@@ -9,8 +9,9 @@ tags:
     - 回归分析
 ---
 
-**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正，还有原文更精彩哟！**
-**[本文翻译自《Going Deeper into Regression Analysis with Assumptions, Plots & Solutions》](https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/)**
+**本人能力有限，翻译只是为了更好的理解，如有错误欢迎指正！**
+
+**本文翻译自[《Going Deeper into Regression Analysis with Assumptions, Plots & Solutions》](https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/)**
 
 ## 介绍
 在预测模型中，回归分析经常是第一步骤。毋庸置疑，回归分析应用起来非常简单，语法和参数都不会引起任何混淆。
