@@ -1,6 +1,7 @@
 ---
 layout:     post
 title:      "向caret包中的train添加xgboost-R语言"
+subtitle:   "利用train实现xgboost的grid search"
 date:       2017-3-20 12:00:00
 author:     "jingliang"
 header-img: "/img/gakki1.jpg"
@@ -8,7 +9,7 @@ tags:
     - R语言
 ---
 
-## 利用事先编好的xgboost调用函数，实现在train中grid搜索调用xgoost算法。
+## 利用事先编好的xgboost调用函数，实现在train中grid搜索调用xgboost算法。
 
 ### 首先载入事先编写好的函数代码
 
@@ -71,4 +72,4 @@ xgb_model <- train(BostonHousing[, 1:13], BostonHousing[, 14], method = xgboost)
 varImp(xgb_model)
 ``` 
 
->注意：这里的train中的xgboost只接受data.frame格式的数值型数据，另外可以也可以使用train中或caret中的其他函数，例如查看重要变量的VarImp和交叉验证的trControl等。
+>注意：这里的train中的xgboost只接受data.frame格式的数值型数据，另外也可以使用train中或caret中的其他函数，例如查看重要变量的VarImp和交叉验证的trControl等。
