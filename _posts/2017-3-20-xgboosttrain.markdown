@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "向caret包中的train添加xgboost-R语言"
-date:       2017-4-1 12:00:00
+date:       2017-3-20 12:00:00
 author:     "jingliang"
 header-img: "/img/gakki1.jpg"
 tags:
