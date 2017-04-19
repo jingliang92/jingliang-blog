@@ -1,14 +1,14 @@
 ---
 layout:     post
 title:      "应用R语言建模分析"
-subtitle:   ""
+subtitle:   "R语言，回归分析"
 date:       2017-4-10 12:00:00
 author:     "jingliang"
 header-img: "/img/gakki.jpg"
 tags:
     - R语言
 ---
-代码在[githuub上]()
+完整的代码及运行过程在[githuub上](https://github.com/jingliang92/analyticsvidhya_practice)
 ## 导入需要使用的R包：
 
 ### 画图：
