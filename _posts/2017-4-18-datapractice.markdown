@@ -8,7 +8,9 @@ header-img: "/img/gakki.jpg"
 tags:
     - R语言
 ---
-完整的代码及运行过程在[githuub上](https://github.com/jingliang92/analyticsvidhya_practice)
+
+**完整的代码及运行过程在[GitHub上](https://github.com/jingliang92/analyticsvidhya_practice)**
+
 ## 导入需要使用的R包：
 
 ### 画图：
