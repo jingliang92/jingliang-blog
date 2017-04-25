@@ -45,6 +45,8 @@ xgbgrid <- expand.grid(eta=0.26, gamma=0, max_depth=seq(3,10,1),
 xgb_model <- train(x, y, method = xgboost, tuneGrid=gbmgrid)
 ``` 
 
+>注意：如果是想分类的话，这里的y必须是factor类型，同时也要设置trainControl(classProbs = TRUE,summaryFunction = twoClassSummary)。
+
 ### 例子：
 
 ```   
