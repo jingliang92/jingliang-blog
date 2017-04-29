@@ -13,7 +13,7 @@ tags:
 
 ### 首先载入事先编写好的函数代码
 
-代码放在[github上](https://github.com/jingliang92/xgboost_trian)
+代码放在[GitHub上](https://github.com/jingliang92/xgboost_trian)
 
 ```    
 source("where you put the xgboost.R in your computer")
