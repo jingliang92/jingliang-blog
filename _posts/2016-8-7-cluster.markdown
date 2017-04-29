@@ -82,8 +82,8 @@ $$d({X_i, X_j}) = 1- \frac{2\sum_{k=1}^{p}\text{min}(X_{ik},X_{jk})}{\sum_{k=1}^
 
 定义如下：
 
-* Error Sum of Squares: $$ESS = \sum_{i}\sum_{j}\sum_{k}(X_{ijk} - \bar{x}_{i\cdot k})^2$$ . 值越小，表示簇内越紧密。
-* Total Sum of Squares: $$TSS = \sum_{i}\sum_{j}\sum_{k}(X_{ijk} - \bar{x}_{\cdot \cdot k})^2$$ .值越大，簇间越分离。
+* Error Sum of Squares: $$ESS = \sum_{i}\sum_{j}\sum_{k}{X_{ijk} - \bar{x}_{i\cdot k}}^2$$ . 值越小，表示簇内越紧密。
+* Total Sum of Squares: $$TSS = \sum_{i}\sum_{j}\sum_{k}{X_{ijk} - \bar{x}_{\cdot \cdot k}}^2$$ .值越大，簇间越分离。
 * R-Square: $$r^2 = \frac{\text{TSS-ESS}}{\text{TSS}}$$.
 
 初始将每个单元都当成一个簇，第一步合并其中的两个，计算ESS和R-Square，选择ESS最小或R-Square最大的两个单元合并成簇。第二步，生成第二个含有两个单元的簇或生成一个含有三个单元的簇。以此类推，直到所有的单元合成一个簇。
